@@ -1,0 +1,94 @@
+.search-section {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.buddies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.buddy-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.buddy-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.buddy-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.buddy-header h3 {
+  margin: 0;
+  color: #333;
+}
+
+.online-badge {
+  background-color: #28a745;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 10px;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.buddy-info {
+  margin-bottom: 15px;
+}
+
+.buddy-info p {
+  margin: 8px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.buddy-bio {
+  font-style: italic;
+  color: #888 !important;
+}
+
+.buddy-interests {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.interest-tag {
+  padding: 4px 10px;
+  background-color: #e3f2fd;
+  color: #1976d2;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+.buddy-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.buddy-actions .btn {
+  flex: 1;
+}
+

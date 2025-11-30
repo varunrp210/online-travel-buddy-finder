@@ -1,0 +1,120 @@
+.filter-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.filter-tabs button {
+  padding: 10px 20px;
+  border: 2px solid #ddd;
+  background: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.filter-tabs button.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.requests-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.request-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.request-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.request-header h3 {
+  margin: 0;
+  color: #333;
+}
+
+.request-meta {
+  color: #666;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.status-badge {
+  padding: 5px 12px;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.status-pending {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.status-accepted {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status-rejected {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.request-message {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 15px 0;
+  color: #666;
+}
+
+.request-plan {
+  background-color: #e3f2fd;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 15px 0;
+  color: #666;
+}
+
+.request-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.request-info {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #fff3cd;
+  border-radius: 5px;
+  color: #856404;
+}
+
+.request-success {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #d4edda;
+  border-radius: 5px;
+  color: #155724;
+}
+
+.request-rejected {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #f8d7da;
+  border-radius: 5px;
+  color: #721c24;
+}
+
